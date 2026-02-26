@@ -145,7 +145,7 @@ export default function About({ lang, isLightMode }: AboutProps) {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    {t.aboutPage.impact.stats.map((stat, i) => (
+                    {t.aboutPage.impact.stats.map((stat: { icon: string; value: string; label: string }, i: number) => (
                         <div key={i} className={`p-12 rounded-[48px] border transition-all duration-700 hover:-translate-y-2 group relative overflow-hidden ${isLightMode
                             ? 'bg-white/40 border-black/5 hover:border-orange-primary/30 shadow-[0_20px_50px_rgba(0,0,0,0.05)]'
                             : 'bg-tech/20 border-white/5 hover:border-orange-primary/30 shadow-2xl'

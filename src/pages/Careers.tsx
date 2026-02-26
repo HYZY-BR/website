@@ -123,7 +123,7 @@ export default function Careers({ lang, isLightMode }: CareersProps) {
                             <h2 className="text-[10px] font-black uppercase tracking-[0.4em] opacity-30 mb-8 border-l-2 border-orange-primary/30 pl-4">Hiring_Info</h2>
 
                             <div className="space-y-3">
-                                {t.careersPage.culture.items.map((item, i) => (
+                                {t.careersPage.culture.items.map((item: { icon: string; title: string; desc: string }, i: number) => (
                                     <div
                                         key={i}
                                         className={`p-6 rounded-[2rem] border transition-all duration-300 group flex items-start gap-5 backdrop-blur-md ${isLightMode ? 'bg-white/40 border-black/[0.03]' : 'bg-tech/20 border-white/[0.03]'

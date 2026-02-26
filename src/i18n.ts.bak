@@ -1320,45 +1320,6 @@ export const translations = {
                 address: "Coolsingel 104, 3011 AG Rotterdam, Nederland"
             }
         },
-        roadmapPage: {
-            badge: "Product Reis",
-            title: "Toekomst van ",
-            titleAccent: "Automatisering",
-            desc: "Verken onze trajectory en wat er nog gaat komen voor de HYZY-engine.",
-            milestones: [
-                {
-                    quarter: "Q1 2026",
-                    title: "AI Core Uitbreiding",
-                    desc: "Verbeterde context voor complexe workflows.",
-                    status: "Done",
-                    icon: "cpu"
-                },
-                {
-                    quarter: "Q2 2026",
-                    title: "Advanced RBAC",
-                    desc: "Enterprise-grade permissies.",
-                    status: "In Progress",
-                    icon: "shield"
-                }
-            ]
-        },
-        helpPage: {
-            badge: "Helpcentrum",
-            title: "Hoe kunnen we ",
-            titleAccent: "Helpen?",
-            searchPlaceholder: "Zoeken naar antwoorden...",
-            popular: "Populaire Onderwerpen",
-            topics: [
-                { id: "billing", icon: "credit-card", title: "Facturering", desc: "Beheer uw abonnement." },
-                { id: "account", icon: "user", title: "Account & Beveiliging", desc: "Update uw profiel." }
-            ],
-            faqs: {
-                title: "Veelgestelde Vragen",
-                list: [
-                    { q: "Hoe upgrade ik mijn plan?", a: "U kunt direct upgraden via uw Dashboard." }
-                ]
-            }
-        },
         loginModal: {
             title: "Toegang HYZY Engine",
             email: "E-mailadres",
@@ -1456,17 +1417,8 @@ export const translations = {
             values: [
                 { icon: "cpu", title: "Inteligencia Primero", desc: "Automatización impulsada por IA." },
                 { icon: "shield", title: "Confianza Radical", desc: "Tus datos son tuyos." },
-                { icon: "zap", title: "Velocidad Pura", desc: "El rendimiento es nuestra base." }
-            ],
-            impact: {
-                title: "Impacto Global en Tiempo Real",
-                desc: "Nuestra tecnología nunca duerme. Construimos infraestructura resiliente.",
-                stats: [
-                    { label: "Uptime", value: "99.99%", icon: "activity" },
-                    { label: "Tareas Autónomas", value: "50M+", icon: "zap" },
-                    { label: "Latencia Global", value: "< 50ms", icon: "globe" }
-                ]
-            }
+                { icon: "zap", title: "Velocidad Pura", desc: "El rendimiento é nuestra base." }
+            ]
         },
         careersPage: {
             badge: "Estamos Contratando",
@@ -1476,24 +1428,22 @@ export const translations = {
             culture: {
                 title: "¿Por qué HYZY?",
                 items: [
-                    { icon: "home", title: "Remote First", desc: "Trabaja desde cualquier lugar. Valoramos los resultados sobre las horas." },
-                    { icon: "award", title: "Meritocracia", desc: "Tu crecimiento depende solo de tu impacto y dedicación." },
-                    { icon: "coffee", title: "Crecimiento Infinito", desc: "Presupuesto para aprendizaje y mentoría interna." }
+                    { icon: "home", title: "Remote First", desc: "Trabaja desde cualquier lugar." },
+                    { icon: "award", title: "Meritocracia", desc: "Tu crecimiento depende de tu impacto." }
                 ]
             },
             form: {
-                title: "Postula ahora",
-                desc: "Cuéntanos quién eres y cómo puedes ayudar a HYZY a construir el futuro.",
+                title: "Postula",
                 fullName: "Nombre Completo",
                 email: "Email de Trabajo",
                 phone: "Teléfono",
                 position: "Puesto de Interés",
-                resume: "Link al CV (PDF/Drive)",
+                resume: "Link al CV",
                 linkedin: "URL LinkedIn",
                 coverLetter: "Cuéntanos sobre ti...",
                 submit: "Enviar Postulación",
-                success: "¡Postulación enviada con éxito!",
-                error: "Error al enviar. Por favor, inténtelo de nuevo."
+                success: "¡Postulación enviada!",
+                error: "Error al enviar."
             }
         },
         docPage: {
@@ -1641,37 +1591,6 @@ export const translations = {
                 email: "contato@hyzy.com.br",
                 phone: "+31 10 345 6789",
                 address: "Coolsingel 104, 3011 AG Rotterdam, Holanda"
-            }
-        },
-        roadmapPage: {
-            badge: "Product Journey",
-            title: "Futuro de la ",
-            titleAccent: "Automatización",
-            desc: "Explora nuestra trajetória y lo que vendrá para el motor HYZY.",
-            milestones: [
-                {
-                    quarter: "Q1 2026",
-                    title: "Expansión Core IA",
-                    desc: "Mejoras en el mapeo de flujos complejos.",
-                    status: "Done",
-                    icon: "cpu"
-                }
-            ]
-        },
-        helpPage: {
-            badge: "Centro de Ayuda",
-            title: "¿Cómo podemos ",
-            titleAccent: "Ayudar?",
-            searchPlaceholder: "Buscar respuestas...",
-            popular: "Temas Populares",
-            topics: [
-                { id: "billing", icon: "credit-card", title: "Facturación", desc: "Gestiona tu suscripción." }
-            ],
-            faqs: {
-                title: "Preguntas Frecuentes",
-                list: [
-                    { q: "¿Cómo cambio mi plan?", a: "Puedes hacerlo desde el Dashboard." }
-                ]
             }
         },
         loginModal: {
